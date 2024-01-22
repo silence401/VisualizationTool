@@ -74,7 +74,7 @@ def visualize_camera(camera_ex, mesh=None):
     if mesh is not None:
         vizualizer.add_geometry(mesh)
     vizualizer.run()
-    import pdb; pdb.set_trace()
+    #import pdb; pdb.set_trace()
 
 def read_camera_pose(data_path):
     cam_lst = os.listdir(data_path)
@@ -90,7 +90,6 @@ def read_camera_pose(data_path):
 
 def read_mesh(mesh_path):
     pcd_npy = np.load(mesh_path)
-    import pdb; pdb.set_trace()
     pcd = o3d.geometry.PointCloud()
     pcd.points = o3d.utility.Vector3dVector(pcd_npy)
     # pcd.colors = 

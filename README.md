@@ -14,3 +14,7 @@
 ```bash
 python vis.py --mesh_path xxx --camera_path xxxx
 ```
+
+#### Example
+
+![example](./assets/example.png)
