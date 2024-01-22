@@ -1,5 +1,8 @@
-### Useage
+### Useage [Updating]
+
 1.Prepare Data
+
+
 """
 |--camera_path
 |--|--0.npy  [3x4] w2c camera pose
@@ -7,9 +10,8 @@
 |--|--...
 """
 
-2.Run Script 
+2.Run Script
 
-```
+```bash
 python vis.py --mesh_path xxx --camera_path xxxx
-
 ```
