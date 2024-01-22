@@ -2,13 +2,12 @@
 
 1.Prepare Data
 
-
-"""
+```yaml
 |--camera_path
 |--|--0.npy  [3x4] w2c camera pose
 |--|--1.npy
 |--|--...
-"""
+```
 
 2.Run Script
 
